@@ -1,0 +1,697 @@
+/*  Name: Raymond Kneip
+    Date: septembre 2015
+    Homepage Physics - LTAM 
+*/
+
+
+header, footer, section, nav, article {
+  display: block;
+}
+
+
+BODY#body_phys {
+     color: #000300;            /* Textfarbe */
+     background: #F5F4EF;       /* Hintergrundfarbe der gesamten Physik-Seite */
+     margin: 0 auto;
+     padding: 0 auto;
+     width: 1000px;
+     font-family: 'Trebuchet MS', 'Trebuchet', 'Lucida Sans Unicode';
+     font-size: 16px;
+     text-align: left;
+}
+
+BODY#body_astro {
+     color: #000300;            /* Textfarbe */
+     background: #000000;       /* Hintergrundfarbe der gesamten Astro-Seite */
+     margin: 0 auto;
+     padding: 0 auto;
+     width: 1000px;
+     font-family: 'Trebuchet MS', 'Trebuchet', 'Lucida Sans Unicode';
+     font-size: 14px;
+     text-align: left;
+}
+
+
+/* ----------------------------------------------- */
+/* HEADER */
+
+#banner_phys {                   /* Banner der Physik-Seite */
+     width: 1000px;
+     height: 70px;
+     margin: 0px auto;
+     border: 1px;
+     text-align: left;
+     color: #660000;             /* Textfarbe des Headers */
+     background-color: #FFCC33;  /* Hintergrundfarbe des Headers */
+		 
+		 border-top-left-radius: 5px;
+	   -moz-border-radius-topleft: 5px;
+	   -webkit-border-top-left-radius: 5px;
+
+     border-top-right-radius: 5px;
+	   -moz-border-radius-topright: 5px;
+	   -webkit-border-top-right-radius: 5px;		 
+		 
+}
+
+#banner_phys h1 {
+     font-size: 54px; 
+     margin: 5px;
+}
+
+#banner_phys h1 strong {
+     font-size: 18px;
+     font-weight: normal;
+}
+
+#banner_astro {                  /* Banner der Astro-Seite */
+     width: 1000px;
+     height: 70px;
+     margin: 0px auto;
+     border: 1px;
+     text-align: left;
+     color: #660000;             /* Textfarbe des Headers */
+     background-color: #00CCFF;  /* Hintergrundfarbe des Headers */
+		 
+		 border-top-left-radius: 5px;
+	   -moz-border-radius-topleft: 5px;
+	   -webkit-border-top-left-radius: 5px;
+
+     border-top-right-radius: 5px;
+	   -moz-border-radius-topright: 5px;
+	   -webkit-border-top-right-radius: 5px;		 
+		 
+}
+
+#banner_astro h1 {
+     font-size: 54px; 
+     margin: 5px;
+}
+
+#banner_astro h1 strong {
+     font-size: 18px;
+     font-weight: normal;
+}
+
+
+/* ----------------------------------------------- */
+/* Main Nav */
+
+#navi_phys  {
+	background: #999999;      /* Navigationsleiste der Physik-Seite */
+	font-size: 1.143em;
+	height: 30px;
+	line-height: 20px;
+	margin: 0 auto 0.4em auto;
+	padding: 0;
+	text-align: center;
+	width: 1000px;	
+	
+	border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+		 
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+}
+	
+#navi_phys  ul {list-style: none; margin: 0 auto; width: 1000px;}
+#navi_phys  li {float: left; display: inline; margin: 0;}
+	
+#navi_phys  a:link, #navi_phys  a:visited {
+        color: #660000;
+	display: inline-block;
+	height: 20px;
+	padding: 5px 1.5em;
+	text-decoration: none;
+}
+#navi_phys  a:hover, #navi_phys  a:active,
+#navi_phys  .active a:link, #navi_phys  .active a:visited {background: #660000;
+	color: #fff;
+	text-shadow: none !important;
+}
+	
+#navi_phys  li:first-child a {
+	border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+		
+	border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+
+#navi_phys  li:last-child a {
+	border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+		
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+}
+
+/* ----------------------------------------------- */
+/* Main Nav_Astro */
+
+#navi_astro  {
+	background: #999999;      /* Navigationsleiste der Astro-Seite */
+	font-size: 1.143em;
+	height: 30px;
+	line-height: 20px;
+	margin: 0 auto 0.4em auto;
+	padding: 0;
+	text-align: center;
+	width: 1000px;	
+	
+	border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+		 
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+}
+	
+#navi_astro  ul {list-style: none; margin: 0 auto; width: 1000px;}
+#navi_astro  li {float: left; display: inline; margin: 0;}
+	
+#navi_astro  a:link, #navi_astro  a:visited {
+        color: #FFFFFF;
+	display: inline-block;
+	height: 20px;
+	padding: 5px 1.5em;
+	text-decoration: none;
+}
+#navi_astro  a:hover, #navi_astro  a:active,
+#navi_astro  .active a:link, #navi_astro  .active a:visited {background: #00CCFF;
+	color: #FFFFFF;
+	text-shadow: none !important;
+}
+	
+#navi_astro  li:first-child a {
+	border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+		
+	border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+
+#navi_astro  li:last-child a {
+	border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+		
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+}
+
+/* ------------------------------------------------*/
+/* Anchors */
+
+a {outline: 0;}
+
+a img {border: 0px; text-decoration: none;}
+
+a:link, a:visited {
+	color: #660000;          /* Textfarbe der Links */
+	padding: 0 1px;
+	text-decoration: underline;
+}
+
+a:hover, a:active {
+	background-color: #CCCCCC;   /* grau */
+	color: #FFFFFF;          /* Textfarbe, falls active */
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #333;
+}
+
+
+/* ------------------------------------------------*/
+/* Main-Page */
+
+p  {  
+     padding: 7px;
+		 text-align: left;
+}
+
+#Text {
+		 width: 996px;
+     text-align: left;
+     background-color: #FFFFFF;
+		 color: #000000;
+     margin: 0px;
+     padding: 2px;
+     border-radius: 7px;
+     -moz-border-radius: 7px;
+     -webkit-border-radius: 7px;
+}
+
+#Text_Astro1 {
+		 width: 996px;
+     text-align: left;
+     background-color: #444444;
+		 color: #CCCCCC;
+     margin: 0px;
+     padding: 2px;
+     border-radius: 7px;
+     -moz-border-radius: 7px;
+     -webkit-border-radius: 7px;
+}
+
+
+#bg_img {
+     width: 480px;
+}
+
+#Text h2 {
+     margin: 7px;
+}
+
+#box {
+     width: 800px;
+}
+
+.leftcolumn_main {            /* linke Spalte der Hauptseite */
+     float: left; 
+     width: 500px;
+		 height: 360px;
+		 padding: 10px;
+}
+
+.rightcolumn_main {           /* rechte Spalte der Hauptseite */
+     margin-left: 550px;
+     width: 350px;
+		 height: 360px;
+		 padding: 10px;
+		 text-align: center;
+}
+
+.leftcolumn {                 /* linke Spalte; halbe Seite - zentriert */
+     float: left; 
+     width: 490px;
+		 padding: 5px;
+		 text-align: center;
+}
+
+.rightcolumn {                /* rechte Spalte; halbe Seite - zentriert */
+     margin-left: 495px;
+     width: 490px;
+		 padding: 5px;
+		 text-align: center;
+}
+
+.p_center {
+     text-align: center;
+}
+
+/* #p_main {       */              /* möglicherweise zuviel */
+/*     text-align: center;}   */
+
+		 
+/* ------------------------------------------------*/
+/*  Vorlesungen  */
+
+.d_list {
+     margin: 0px;
+     padding: 7px;
+}
+
+dt.tab_trenn {
+     font-weight: bold;
+     color: #660000;
+		 font-size: 1.143em;
+		 border-bottom: thin solid #660000;
+}
+
+table.tab_pruef  {               /*  Tabelle Prüfungstermine  */
+     width: 400px;
+		 border: 1px #000033 dashed;
+		 margin: auto;
+}
+
+table.tp  {
+     font-family: 'Trebuchet MS', 'Trebuchet', 'Lucida Sans Unicode';
+     font-size: 17px;
+     text-align: left;
+}
+		 
+caption  {
+     font-size: 1.143em;
+		 font-weight: bold;
+}
+
+thead  {
+     background-color: #EAEAEA;
+}
+
+tbody  {
+     font-family: Arial, sans-serif;
+		 font-size: 0.90em;
+}
+
+tbody td  {
+		 text-align: center;
+}
+
+#skript_config {
+     width: 20px;
+}
+
+#text_config {
+     width: 12px;
+}
+
+#leftcolumn_2_3 {
+     float: left; 
+     width: 700px;
+		 padding: 10px;
+	   text-align: left;
+}
+
+#rightcolumn_1_3 {
+     margin-left: 680px;
+     width: 300px;
+		 padding: 10px;
+		 text-align: left;
+}
+
+.leftcolumn_2_3 {
+     float: left; 
+     width: 700px;
+		 padding: 10px;
+	   text-align: left;
+}
+
+.rightcolumn_1_3 {
+     margin-left: 680px;
+     width: 300px;
+		 padding: 10px;
+		 text-align: left;
+}
+
+.leftcolumn_1_3 {                /* Breite 300px, da aber padding: 7px */
+     float: left;                /* wird Breite um 15px reduziert      */
+		 width: 300px;
+		 padding: 5px;
+	   text-align: left;
+}
+
+.rightcolumn_2_3 {
+     margin-left: 300px;
+     width: 640px;
+		 padding: 5px;
+		 text-align: left;
+}
+
+.leftcolumn_150px {                /* Breite 200px, da aber padding: 7px */
+     float: left;                /* wird Breite um 15px reduziert      */
+		 width: 150px;
+		 padding: 5px;
+	   text-align: left;
+}
+
+.rightcolumn_800px {
+     margin-left: 150px;
+     width: 790px;
+		 padding: 5px;
+		 text-align: left;
+}
+
+
+#cover {
+     height: 150px;
+}
+
+.clearleft  {
+     clear: left;
+}
+
+table.klassen {
+     background-color: #cccccc;
+     margin: auto; 
+		 border-spacing: 8px;
+		 border: 5px;
+     border: 1px solid #660000;
+		 text-align: center;
+}
+
+.trenn-box {                             /* Kleine Trenn-Box um Abschnitte */
+     background-color: #999999;          /* voneinander zu trennen */
+		 width: 100%;
+     height: 8px;
+}
+
+hr  {
+     width: 95%;
+		 border: 0.5px solid #660000;
+}
+
+.li_tp_left  {
+     float: left;
+		 width: 60px;
+}
+
+.li_tp_right  {
+     margin-left: 60px;
+		 text-align: left;
+}
+
+
+/* ------------------------------------------------*/
+/*  Contact  */
+
+.leftcolumn_contact {
+     float: left; 
+     width: 500px;
+		 padding: 10px;
+	   text-align: left;
+}
+
+.rightcolumn_contact {
+     margin-left: 500px;
+     width: 500px;
+		 padding: 10px;
+		 text-align: left;
+}
+
+#mail_config {
+     width: 15px;
+}
+
+
+/* ------------------------------------------------*/
+/*  Astronomy  Main Page */
+
+
+.div_center  {                          /* Div-Block wird zentriert */
+     display: block;
+     margin-left: auto;
+		 margin-right: auto;
+		 text-align: center;
+}
+
+.fig_main  {                            /* Bild mit 800 Pixel Breite    */
+     display: block;                    /* wird definiert               */
+     margin-left: auto;                 /* zuerst wird figure-Umgebung  */
+		 margin-right: auto;                /* definiert, in welches dann   */
+     width: 800px;                      /* Bild über img_800 eingesetzt */
+		 text-align: center;                /* wird                         */
+		 padding: 2px;
+}
+
+.fig_strip  {
+     width: 800px;         
+		 border: 1px solid #000000;                 
+		 padding: 0px 0px 0px 0px;
+		 margin-left: 30px;
+}
+
+.img_800  {                         
+     width: 800px;                    
+		 border: 1px solid #000000;
+		 text-align: center;
+		 padding: 2px;
+}
+
+figcaption.capt_800  {
+     background: #555555;
+		 width: 798px;
+		 margin-left: auto;
+		 margin-right: auto;
+		 text-align: left;
+		 font-family: 'Arial';
+		 font-size: 12px;
+		 padding: 4px;
+		 border-radius: 4px;
+     -moz-border-radius: 4px;
+     -webkit-border-radius: 4px;
+}
+
+figcaption.capt_900  {
+     background: #555555;
+		 width: 890px;
+		 margin-left: auto;
+		 margin-right: auto;
+		 text-align: left;
+		 font-family: 'Arial';
+		 font-size: 12px;
+		 padding: 4px;
+		 border-radius: 4px;
+     -moz-border-radius: 4px;
+     -webkit-border-radius: 4px;
+}
+
+figcaption.capt_400  {
+     background: #555555;
+		 width: 395px;
+		 margin-left: auto;
+		 margin-right: auto;
+		 text-align: left;
+		 font-family: 'Arial';
+		 font-size: 12px;
+		 padding: 4px;
+		 border-radius: 4px;
+     -moz-border-radius: 4px;
+     -webkit-border-radius: 4px;
+}
+
+
+/* ------------------------------------------------*/
+/*  Astronomy  Observatory */
+
+#const_obs  {
+    width: 900px;
+    height: auto;
+		margin-left: auto;
+		margin-right: auto;
+    overflow: hidden;
+}
+
+.list_obs dt  {                 /* Definition der Tabelle auf der */
+    font-size: 12pt;            /* Astro-Hauptseite               */
+		font-weight: bold;
+		text-align: left;
+		margin: 10pt;
+}
+
+.list_obs dd  {
+    font-size: 12pt;
+		font-weight: normal;
+		text-align: left;
+}
+
+.h3_title  {
+    text-align: center;
+}
+
+.h4_title  {
+    text-align: left;
+		font-style: italic;
+		margin-left: 25px;
+}
+
+.img  {                          /* Bilder der Breite 300px */
+    display: inline;
+		height: 300px;
+		border: 1px solid #000000;
+    margin: 1 5px;
+}
+
+.figure  {                       /* Bild wird 1 zu 1 übernommen */
+		 border: 1px solid #000000;
+		 text-align: center;
+		 padding: 2px;
+}
+
+figcaption.capt_scidav  {
+     background: #555555;
+		 width: 782px;
+		 margin-left: auto;
+		 margin-right: auto;
+		 text-align: left;
+		 font-family: 'Arial';
+		 font-size: 12px;
+		 padding: 4px;
+		 border-radius: 4px;
+     -moz-border-radius: 4px;
+     -webkit-border-radius: 4px;
+}
+
+/* ------------------------------------------------*/
+/*  Astronomy  Images */
+
+.img3  {
+    display: inline;
+		border: 1px solid #000000;
+    margin: 1 5px;
+		text-align: center;
+}
+
+.img_4  {                 /* Einteilung, um 4 Bilder in einer Reihe */
+    width:25%;            /* unterzukriegen                         */
+    float:left;
+		margin:0px;
+    text-align:center;
+    padding:0px;
+}
+
+figcaption.cap_200  {
+     background: #555555;
+		 width: 195px;
+		 margin-left: auto;
+		 margin-right: auto;
+		 text-align: center;
+		 font-family: 'Arial';
+		 font-size: 12px;
+		 padding: 4px;
+		 border-radius: 4px;
+     -moz-border-radius: 4px;
+     -webkit-border-radius: 4px;
+}
+
+table.tab_img  {
+     width:80%;
+		 margin-left:5px;
+}
+
+table.tab_img td  {
+		 text-align:left;
+		 font-size:14px;
+}
+
+
+/* ------------------------------------------------*/
+
+FOOTER {
+     width: 990px;
+     height: 15px;
+     font-size: 10px;
+     font-style: italic;
+     margin: 5px auto;
+     padding: 5px;
+     text-align: right;
+     background-color: #ffffff;
+     border-radius: 7px;
+     -moz-border-radius: 7px;
+     -webkit-border-radius: 7px;
+}
+
+FOOTER#footer_astro {
+     width: 990px;
+     height: 15px;
+     font-size: 10px;
+     font-style: italic;
+     margin: 5px auto;
+     padding: 5px;
+     text-align: right;
+     background-color: #444444;
+		 color:#CCCCCC; 
+     border-radius: 7px;
+     -moz-border-radius: 7px;
+     -webkit-border-radius: 7px;
+}
